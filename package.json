@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/iamzee/hopper-library/issues"
   },
-  "homepage": "https://github.com/iamzee/hopper-library#readme"
+  "homepage": "https://github.com/iamzee/hopper-library#readme",
+  "dependencies": {
+    "@prisma/client": "^5.16.0",
+    "prisma": "^5.16.0"
+  }
 }
