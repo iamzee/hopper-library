@@ -41,7 +41,7 @@ app.get("/api/v1/genres/:id", async (req, res) => {
 })
 
 app.patch("/api/v1/genres/:id", async (req, res) => {
-  const id = req.params.id;
+  const id = Number(req.params.id);
   await prisma.genre.update({
     where: {
       id: id
